@@ -1,0 +1,49 @@
+{
+    "projects": [
+        "60afaaf408307877f30eb439"
+    ],
+    "components": [
+        {
+            "path": "src/stories/Button.js",
+            "zeplinIds": [
+                "60afaf7f0fa4f37c8202965e"
+            ],
+            "storybook": {
+                "kind": "Design System/Button",
+                "stories": [
+                    "primary",
+                    "secondary",
+                    "large",
+                    "small"
+                ]
+            }
+        },
+        {
+            "path": "src/stories/Header.js",
+            "zeplinIds": []
+        },
+        {
+            "path": "src/stories/Page.js",
+            "zeplinIds": []
+        }
+    ],
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin",
+            "config": {
+                "tsDocgen": "react-docgen-typescript",
+                "tsConfigPath": "/path/to/tsconfig.json"
+            }
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006",
+                "startScript": "storybook"
+            }
+        }
+    ],
+    "styleguides": [
+        "60aff840b632067d47bb89e4"
+    ]
+}
